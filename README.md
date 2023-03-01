@@ -12,7 +12,11 @@ ID | ENCFF294ENQ | ENCFF478YXZ | ENCFF526AVE
 
 Скрины некоторых графиков: (более подробно анализ можно увидеть в соответствующих html-отчетах)
 
-
+ID | Basic Statistics | Per base sequence quality | Per sequence quality scores | Per sequence GC content
+--- | --- | --- | --- | ---
+ENCFF294ENQ | ![](https://github.com/XeniaMishina/hse_hw2_chip/blob/main/screens/294_BS.png) | ![](https://github.com/XeniaMishina/hse_hw2_chip/blob/main/screens/294_PBSQ.png) | ![](https://github.com/XeniaMishina/hse_hw2_chip/blob/main/screens/294_PSQS.png) | ![](https://github.com/XeniaMishina/hse_hw2_chip/blob/main/screens/294_GC.png) |
+ENCFF478YXZ | ![](https://github.com/XeniaMishina/hse_hw2_chip/blob/main/screens/478_BS.png) | ![](https://github.com/XeniaMishina/hse_hw2_chip/blob/main/screens/478_PBSQ.png) | ![](https://github.com/XeniaMishina/hse_hw2_chip/blob/main/screens/478_PSQS.png) | ![](https://github.com/XeniaMishina/hse_hw2_chip/blob/main/screens/478_GC.png) |
+ENCFF526AVE | ![](https://github.com/XeniaMishina/hse_hw2_chip/blob/main/screens/526_BS.png) | ![](https://github.com/XeniaMishina/hse_hw2_chip/blob/main/screens/526_PBSQ.png) | ![](https://github.com/XeniaMishina/hse_hw2_chip/blob/main/screens/526_PSQS.png) | ![](https://github.com/XeniaMishina/hse_hw2_chip/blob/main/screens/526_GC.png) |
 
 Ссылки на html-файлы анализов: 
 - [ENCFF294ENQ](https://github.com/XeniaMishina/hse_hw2_chip/blob/main/data/ENCFF294ENQ_fastqc.html)
@@ -32,11 +36,19 @@ ENCFF526AVE |	17936432 | 14749726 |	82.23% | 694391 |	3.87% |	2492315 |	13.90%
 ## Диаграммы Эйлера-Венна
 
 ### Реплика 1 и ENCODE
-![img](https://github.com/XeniaMishina/hse_hw2_chip/blob/main/data/Intervene_venn_1.pdf) | ![img](https://github.com/XeniaMishina/hse_hw2_chip/blob/main/data/Intervene_venn_2.pdf)
+
+ENCFF294ENQ / ENCODE | ENCODE / ENCFF294ENQ
+--- | ---
+![](https://github.com/XeniaMishina/hse_hw2_chip/blob/main/screens/venn1.png) | ![](https://github.com/XeniaMishina/hse_hw2_chip/blob/main/screens/venn2.png)
 
 ### Реплика 2 и ENCODE
 
+ENCFF478YXZ / ENCODE | ENCODE / ENCFF478YXZ
+--- | ---
+![](https://github.com/XeniaMishina/hse_hw2_chip/blob/main/screens/venn3.png) | ![](https://github.com/XeniaMishina/hse_hw2_chip/blob/main/screens/venn4.png)
+
+Пересечений довольно мало, это связано с тем, что выравнивание производилось только на одну хромосому. В базе данных ENCODE пики составлены для всех хромосом, поэтому их намного больше. Пересечение наших пиков с ENCODE и пересечение ENCODE с нашими пиками - разные вещи, в связи с чем и наблюдаются различные значения.
 
 ## Бонусная часть 
-
+![theory](https://github.com/XeniaMishina/hse_hw2_chip/blob/main/screens/theory.png)
 ![result](https://github.com/XeniaMishina/hse_hw2_chip/blob/main/data/result.png)
