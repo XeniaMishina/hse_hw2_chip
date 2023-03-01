@@ -1,7 +1,7 @@
 # hse_hw2_chip
 
-Ссылка на Google Colab: https://colab.research.google.com/drive/11mn2DhvOM9NJBrJCLqhctkeqUl5U1fMS?usp=sharing
-Ссылка на тот же ipynb на github: https://github.com/XeniaMishina/hse_hw2_chip/blob/main/src/Mishina_hse23_HW2_chip.ipynb
+- Ссылка на Google Colab: https://colab.research.google.com/drive/11mn2DhvOM9NJBrJCLqhctkeqUl5U1fMS?usp=sharing
+- Ссылка на тот же ipynb файл на github: https://github.com/XeniaMishina/hse_hw2_chip/blob/main/src/Mishina_hse23_HW2_chip.ipynb
 
 Клеточная линия A549, гистоновая метка H3K4me1
 
