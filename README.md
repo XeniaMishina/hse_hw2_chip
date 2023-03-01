@@ -61,6 +61,9 @@ ENCFF478YXZ / ENCODE | ENCODE / ENCFF478YXZ
 Гистоновая метка H3K4me1 
 
 ![theory](https://github.com/XeniaMishina/hse_hw2_chip/blob/main/screens/theory.png)
-![result](https://github.com/XeniaMishina/hse_hw2_chip/blob/main/data/result.png)
+
+1 | 2
+--- | ---
+![result](https://github.com/XeniaMishina/hse_hw2_chip/blob/main/data/result.png) | ![result](https://github.com/XeniaMishina/hse_hw2_chip/blob/main/data/result2.png)
 
 Результат похож на теоретический, график похож на расположение гистоновой метки, которое должно было получиться. Значения низкие, но смещений почти нет.
